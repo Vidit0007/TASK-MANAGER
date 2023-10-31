@@ -1,38 +1,158 @@
-.App {
-  text-align: center;
-}
+.active{
+  color: #5f99be;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
+  margin-left: 90%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
   color: white;
+  padding-top: 10px;
+}
+header{
+  background-color: rgb(7, 147, 198);
 }
 
-.App-link {
-  color: #61dafb;
+.dashboard{
+  background-image: url('./IMAGES/image.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height:100vh;
+  width: auto;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.error{
+  background-image: url('./IMAGES/error.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  height:100vh;
+  width: 100vw;
+ 
+}
+
+.input {
+  margin-left: 40%;
+  width: 50%;
+  height: 25px;
+  /* border-radius: 15px; */
+  padding-left: 30px;
+  font-family: monospace;
+  border: 2px solid black;
+}
+.btn1 {
+  border: 2px solid white;
+  background-color: #2980B9;
+  color: white;
+  padding: 2px;
+  margin-left: 55%;
+  width: 100px;
+  font-size: 1.5em;
+  /* border-radius: 15px; */
+}
+.heading {
+  margin-left: 38%;
+  margin-bottom: 2%;
+  font-size: 5em;
+  font-family: sans-serif;
+  color: white;
+  background:linear-gradient(to bottom,rgb(0, 166, 249),rgb(254, 254, 254));
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 3s case-in-out infinite;
+
+}
+.heading2 {
+  margin-left: 34%;
+  font-size: 5em;
+  font-family: sans-serif;
+  color: white;
+  background:linear-gradient(to bottom,rgb(3, 35, 245),rgb(223, 228, 231));
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(239, 239, 239); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 3s case-in-out infinite;
+}
+.heading3 {
+  margin-left: 3%;
+  font-size: 5em;
+  font-family: sans-serif;
+  color: white;
+text-align: center;
+justify-content: center;
+}
+.container1{
+  background-image: url("./IMAGES/img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vd;
+  height: 100vh;
+ 
+
+}
+.container2{
+  background-image: url("./IMAGES/regi3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vd;
+  height: 100vh;
+}
+
+
+.btn2 {
+  border: 2px solid white;
+  font-family: monospace;
+  background-color: #2980B9;
+  color: white;
+  padding: 2px;
+  margin-left: 90%;
+  margin-top:5%;
+  width: 90px;
+  font-size: 1.5em;
+
+  /* border-radius: 15px; */
+}
+.btn3{
+
+  border: 2px solid white;
+  font-family: monospace;
+  background-color: #2980B9;
+  color: white;
+  padding: 2px;
+  margin-left: 90%;
+  margin-top: 0%;
+  width: 90px;
+  font-size: 1.5em;
+
+
+}
+.con{
+  backdrop-filter: blur(3px);
+  width: 400px;
+  height: 200px;
+  margin-left: 32%;
+justify-content: center;
+align-items: center;
+padding-top: 7%;
+padding-right: 10%;
+}
+.con2{
+  backdrop-filter: blur(3px);
+  width: 400px;
+  height: 200px;
+  margin-left: 30%;
+justify-content: center;
+align-items: center;
+padding-top: 7%;
+padding-left: 1%;
+margin-left: 30%;
+
 }
