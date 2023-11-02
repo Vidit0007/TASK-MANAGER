@@ -99,17 +99,18 @@ function Task() {
   }
 
   return (
-    <div>
+    <div className='container3'>
         <Header />
-      <h2>Task Manager</h2>
-      <div>
+      <h1 className='h12'>Task Manager</h1>
+      <div className='minicon'>
         <input
+        className='input1'
           type="text"
           placeholder="New Task"
           value={newTask}
           onChange={(e) => setNewTask(e.target.value)}
         />
-        <button onClick={addTask}>Add Task</button>
+        <button className='btn4' onClick={addTask}>Add Task</button>
       </div>
 
       <ul>

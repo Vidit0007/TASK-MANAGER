@@ -4,6 +4,9 @@ import {useNavigate} from 'react-router-dom'
 import './App.css'
 function Register() {
   const navigate = useNavigate();
+  const handle = ()=>{
+    navigate("/login")
+  }
    
     const [formData, setFormData] = useState({
         username: '',
@@ -63,6 +66,10 @@ function Register() {
       <br />
 
       <button className='btn1' onClick={handleSubmit}>Register</button>
+      <br/>
+      <br/>
+      <button className='btn1' onClick={handle}>login</button>
+
       </div>
 
     </div>

@@ -156,3 +156,51 @@ padding-left: 1%;
 margin-left: 30%;
 
 }
+.container3{
+  background-image: url("./IMAGES/task.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vd;
+  height: 100vh;
+}
+.h12{
+  text-shadow: 2px 2px 6px rgba(0,0,0,.5);
+  margin-left: 40%;
+  font-size: 3em;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 3s case-in-out infinite;
+}
+.minicon{
+  margin-left: 40%;
+   margin-top: 5%;
+   backdrop-filter: blur(3px);
+  width: 400px;
+  height: 200px;
+  margin-left: 34%;
+justify-content: center;
+align-items: center;
+padding-top: 10%;
+padding-left: 8%;
+
+}
+.input1{
+  width: 30%;
+  height: 25px;
+  /* border-radius: 15px; */
+  padding-left: 30px;
+  font-family: monospace;
+  border: 2px solid black;
+}
+.btn4{
+  border: 2px solid white;
+  font-family: monospace;
+  background-color: #2980B9;
+  color: white;
+  padding: 3px;
+  width: 100px;
+  font-size: 1.5em;
+}
